@@ -1,0 +1,605 @@
+<center>
+<img src="../images/fscampus_small2.png" width="1200"/>
+</center>
+
+
+***Finance I (OFIN)-SS2025***
+
+**Dr. Omer Cayirli**
+
+Lecturer in Empirical Finance
+
+omer.cayirli@vgu.edu.vn
+
+---
+### Outline
+**Intro**
+  * Content & Objectives
+  * Course Materials
+  * Lecturer
+
+**Rules of the Game**
+  * Expectations & Norms
+  * Attendance & Participation
+  * Grading
+
+**Lecture**
+  * Financial Decision Making
+---
+### Course Content
+* Financial Decision Making
+* Time, Money, and Interest Rates
+* Investment Decision Rules, and Capital Budgeting
+* Valuing Bonds, and Stocks
+* Capital Markets and the Pricing of Risk
+* Optimal Portfolio Choice and the Capital Asset Pricing Model (CAPM)
+* Forwards, Futures, and Options
+
+---
+### Objectives
+* Acquire the basic understanding of financial tools .
+    * How are riskless and risky cash flows valued?
+    * What are the investment decision rules and how is the capital budgeting process carried out?
+    * How to value bonds and stocks?
+    * What are the basics of portfolio theory? How to select optimal portfolios?
+    * How does modern portfolio theory relate to the Capital Asset Pricing Model (CAPM)? What are the implications of CAPM?
+    * What are the basics of derivative products, how are they valued, and how to make use of these products?
+---
+### Course Materials
+**Books**
+   * Main Book: (CF-B&D), Jonathan Berk and Peter DeMarzo, Corporate Finance, 5th ed. (Global), 2020.
+   * Recommended: (RWJJ) S. Ross, R. Westerfield, J. Jaffe, and B. Jordan, Corporate Finance, 12th Edition, 2019.
+
+**Additional readings**
+
+**Lectures(Jupyter)**  
+  * Without exercises: Available before each lecture on GitHub
+  * With exercises: Available after each lecture on GitHub
+
+**Cases**
+
+**Problem Sets**
+
+---
+## Lecture 01
+---
+### What is finance?
+
+- Deals with how individuals, businesses, and institutions allocate scarce resources over time.
+
+- Costs and benefits of financial decisions:
+    - Spread across different periods of time.
+    - Typically uncertain and difficult to predict accurately.
+
+- Application of economic principles to decision-making that involves the allocation of money under conditions of uncertainty.
+
+- Provides the framework for making decisions as to how to get funds and what we should do with them once we have them.
+---
+
+### Main areas of finance
+* Capital markets and capital market theory
+* Financial management (Corporate Finance)
+* Investments
+<center>
+<img src="../figures/main_areas.png" width="640"/>
+</center>
+
+---
+### Capital Markets and Capital Market Theory
+* Studies the financial system, the structure of interest rates, and the pricing of risky assets.
+    * Financial system is the set of markets and other institutions used for financial contracting and the exchange of assets and risks.
+    * The financial system of an economy consists of three components:
+        * Financial markets
+        * Financial intermediaries
+        * Financial regulators
+    * Value of any financial asset is the present value of the expected cash flows. Thus, the valuation of a financial asset involves:
+        * Estimating the expected cash flows;
+        * Determining the appropriate interest rate or interest rates that should be used to discount these cash flows;
+        * Calculating the present value of the expected cash flows.
+---
+### Financial Management (Corporate Finance)
+* Primarily concerned with investment decisions and financing decisions within organizations.
+    * Investment decisions are concerned with the use of funds: The buying, holding, or selling of all types of assets.
+        * Purchase a new machine?
+        * Build a manufacturing plant?
+        * Sell the old production facility?
+        * Acquire another business?
+        * Introduce a new product line?
+        * Maintain a higher level of inventory?
+    * Financing decisions are concerned with the procuring of funds that can be used for long-term investing and financing day-to-day operations.
+        * Internal funding
+        * External funding
+        * Dividend decisions
+        * Risk management
+
+---
+### Investment(s)
+* An investment is the current commitment of money or other resources in the expectation of reaping future benefits.
+* Investments area of finance deals with the management of individual or institutional funds.
+* Investment decisions are made in an environment where higher returns usually can be obtained only at the price of greater risk and in which it is rare to find assets that are so mispriced as to be obvious bargains.
+    * Risk-return trade-off
+    * Efficient pricing of financial assets
+---
+### Financial Markets
+- Financial markets perform the essential economic function of 
+    * channeling funds from households, firms, and governments that have saved surplus funds by spending less than their income 
+    * to those that have a shortage of funds because they wish to spend more than their income.
+<center>
+<img src="../figures/flowoffunds.png" width="720"/>
+</center>
+
+---
+### Financial Markets
+
+| **CLASSIFICATION BY NATURE OF CLAIM:** |
+|---|
+| * Debt market                        |
+| * Equity market                      |
+| **CLASSIFICATION BY MATURITY OF CLAIM:** |
+| * Money market                       |
+| * Capital market                     |
+| **CLASSIFICATION BY SEASONING OF CLAIM:** |
+| * Primary market                     |
+| * Secondary market                   |
+| **CLASSIFICATION BY IMMEDIATE DELIVERY OR FUTURE DELIVERY:** |
+| * Cash or spot market                |
+| * Derivative market                  |
+| **CLASSIFICATION BY ORGANIZATIONAL STRUCTURE:** |
+| * Auction market                     |
+| * Over-the-counter market            |
+| * Intermediated market               |
+
+---
+### Assets
+* An asset is any resource that is expected to provide future benefits and, hence, has economic value.
+* We can categorize assets into two types:
+    * Tangible assets
+    * Intangible assets
+        * Financial assets
+            * Intangible assets.
+            * Benefit or value is the right to future cash.
+            * The price of any financial asset is equal to the current value of the expected cash flow.
+            * The type of financial asset and the characteristics of the issuer determine the degree of certainty of the expected cash flow.
+---
+### Assets
+<center>
+<img src="../figures/fin_instruments.png" width="720"/>
+</center>
+
+---
+### Financial Assets
+* Financial assets (instruments) have two basic economic functions.
+    * To transfer funds from who have excess funds to those who need funds.
+    * To redistribute the risk of cash flows created by real assets between fund seekers and those who provide funds.
+#### Main types of financial instruments:
+* Debt-Based Financial Instruments
+    * Corporate & government bonds, mortgages, credit cards, car loans
+* Equity-Based Financial Instruments
+    * Common equity
+* Hybrid Financial Instruments
+    * Combine both debt and equity characteristics.
+        * Convertible bond
+        * Convertible preferred stock
+---
+### Financial Decision Making: Financial decisions of households
+* Consumption and saving decisions
+    * How much of their current wealth should they spend on consumption and how much of their current income should they save for the future?
+* Investment decisions
+    * How should they invest the money they have saved?
+* Financing decisions
+    * When and how should households use other people's money to implement their consumption and investment plans?
+* Risk-management decisions
+    * How and on what terms should households seek to reduce the financial uncertainties they face or when should they increase their risks?
+---
+### Financial Decision Making: Financial decisions of firms
+* What business(es) to be in
+    * Strategic planning
+* Capital budgeting process
+    * Where to invest?
+* Capital structure
+    * How to finance?
+* Working capital management
+    * Managing cash flows
+---
+### Financial Decision Making
+* Every decision has future consequences in terms of costs and benefits.
+* Comparing costs and benefits is often complicated;
+    * May occur at different points in time,
+    * May be in different currencies,
+    * May have different risks associated with them.
+* Financial tools enables us to express all costs and benefits in common terms.
+    * Identify the costs and benefits of a decision.
+    * Quantify these costs and benefits.
+    * Compare the costs and benefits by evaluating them in the same terms of cash today.
+---
+### Financial Decision Making
+#### Valuation Principle
+* The value of an asset is determined by its competitive market price.
+* The benefits and costs of a decision should be evaluated using these market prices, and when the value of the benefits exceeds the value of the costs, the decision will increase the wealth of an investor or the market value of a firm.
+
+#### Competitive market
+* A market in which goods can be bought and sold at the same price.
+* Competitive market prices allow us to calculate the value of a decision without worrying about the tastes or opinions of the decision maker. When competitive prices are not available, we can no longer do this.
+* Are the prices at retail stores competitive?
+---
+### Financial Decision Making: Cost & Benefits
+1. Trade 10 units of platinum for 250 units of silver. Current market prices for silver and platinum are $\$30$ and $\$800$ per unit, respectively.
+
+   * Would you make this trade?
+
+   * Under what market conditions this trade would be appealing to you?
+
+   * What action would you take if you anticipated silver prices rising to $35 per unit by the end of the week?
+
+   * Is your personal opinion on whether the current prices of these metals are "fair" relevant to your decision?
+
+2. You are the operations manager at your firm. Due to a pre-existing contract, you have the opportunity to acquire 2 kilograms of gold and 10,000 kilograms of copper for a total of $\$275,000$. The current competitive market price of gold is $\$97.500$ per kilogram and for copper is $\$10$ per kilogram.
+   * You are not sure you need all of the oil and copper and are concerned that the value of both commodities may fall in the future.
+   * Should you take this opportunity?
+---
+### Interest Rates and the Time Value of Money
+* For most financial decisions, costs and benefits occur at different points in time.
+
+* We need to account for this time difference when evaluating a decision.
+
+* Consider an investment opportunity with the following certain cash flows:
+    * Costs $\$100,000$ today and provides a benefit of $\$105,000$ in one year. Would you invest?
+
+---
+### Interest Rates and the Time Value of Money
+* A dollar today is worth more than a dollar in the future for two reasons:
+    * Cash flows that occur at different times have different values depending on when they occur. (Interest, opportunity cost)
+    * Future cash flows often involve uncertainty.
+        * Uncertainty arises from the nature of estimating the timing and amount of cash flows.
+        * Uncertainty about future cash flows must be taken into account when examining the value of an investment.
+* An individual wants to borrow $\$1.000$ with the promise of payment after 3 months.
+    * Would a $\$1,000$ repayment be fair?
+    * What could the lender do with this amount if she had not loaned out $\$1,000$?
+    * The probability that the borrower will repay the $\$1,000$ as promised after 3 months?
+---
+### Interest Rates and the Time Value of Money
+* Each cash flow to be obtained at different times can be considered as exchange rate.
+    * Just as usually \$1 ≠ €1,
+    * In an environment where the interest rate and uncertainty are not zero; $PV(CF_t) ≠ PV(CF_{t+n})$
+* The rate at which we can exchange money today for money in the future is determined by the current interest rate.
+* The interest rate allows us to convert money from one point in time to another.
+* Suppose the current annual interest rate is 7%. Would you invest in an opportunity that costs $\$100,000$ today and provides a benefit of $\$105,000$ in one year?
+---
+#### Value of Investment in One Year
+
+**Cost:**  $ \qquad (\$100,000 \, \text{today}) \times (1.07 \, \text{\$/in one year per \$ today}) = \$107,000 \, \text{in one year}$
+
+**Benefit:** $\qquad\$105,000 \, \text{in one year}$
+
+**Net Benefit:**    $\qquad\$105,000 - \$107,000 = -\$2,000 \, \text{in one year} \, (\text{Future Value (FV) of the net benefit})$
+
+**Alternatively, what is the equivalent amount of a benefit of $105,000 in one year in terms of dollars today?**
+
+**Benefit Calculation:** $\qquad (\$105,000 \, \text{in one year}) / (1.07 \, \text{\$/in one year per \$ today}) = \$98,130.84 \, \text{today}$
+
+**Net Benefit:** $\qquad -(\$100,000 \, \text{today}) + \$98,130.84 \, \text{today} = -\$1,869.16 \, \text{today}$
+
+or
+
+**Net Benefit:** $\qquad -\$2,000 \, \text{in one year} / (1.07 \, \text{\$/in one year per \$ today}) = -\$2,000 \times (1 / 1.07 \, \text{\$/today}) = -\$1,869.16 \, \text{today}$
+
+---
+
+### Interest Rates and the Time Value of Money
+$$ \text{Future Value}_{(t+1)} = \text{Present Value}_{(t)} * (1+r)^{[(t+1)-t]} $$
+$$ \text{Present Value}_{(t)} = \text{Future Value}_{(t+1)} / (1+r)^{[(t+1)-t]} $$
+* The rate at which we can exchange money today for money in the future is determined by the current interest rate.
+* Suppose the current annual interest rate is 7%. By investing or borrowing at this rate, we can exchange $1.07 in one year for each $1 today.
+* Risk-Free Interest Rate, $r_f$
+    * The interest rate at which money can be borrowed or lent without risk.
+        * Interest Rate Factor = $(1 + r_f)^n$
+        * Discount Factor = $(1 + r_f)^{-n}$
+---
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import base64
+import io
+from IPython.display import display, HTML
+
+def calculate_pv(interest_rate, t):
+    """Compute the present value of $1 at time t, given interest_rate."""
+    return 1 / ((1 + interest_rate) ** t)
+
+# Define the time periods and interest rates
+time_periods = np.arange(1, 26)  # t=1 to t=25
+interest_rates = [0.05, 0.07, 0.10, 0.15, 0.20]  # 5%, 7%, 10%, 15%, 20%
+
+# Create a DataFrame for present values
+data = {}
+for rate in interest_rates:
+    data[f"{int(rate*100)}%"] = [calculate_pv(rate, t) for t in time_periods]
+df = pd.DataFrame(data, index=time_periods)
+df.index.name = "t"
+
+# Convert the DataFrame to an HTML table (4 decimal places)
+table_html = df.to_html(float_format=lambda x: f"{x:.4f}")
+
+# --- Create the figure and plot ---
+fig, ax = plt.subplots(figsize=(12, 8))  # Single figure
+
+for rate in interest_rates:
+    label = f"{int(rate * 100)}%"
+    ax.plot(time_periods, df[label], marker='o', label=label)
+
+ax.set_title("Present Value of $1 Over Time")
+ax.set_xlabel("Time Period (t)")
+ax.set_ylabel("Present Value ($)")
+ax.legend(title="Interest Rate", loc="upper right")
+ax.grid(True)
+
+# Save the single figure to a buffer (no plt.show())
+buf = io.BytesIO()
+fig.savefig(buf, format='png', bbox_inches='tight')
+buf.seek(0)
+
+# Convert the buffer to a base64 string
+image_base64 = base64.b64encode(buf.getvalue()).decode('utf-8')
+buf.close()
+
+# IMPORTANT: close the figure so it does not re‐display below
+plt.close(fig)
+
+# Create a single <img> tag with an inline base64‐encoded PNG
+image_html = f'<img style="max-width: 100%; width: 800px; height: auto;" src="data:image/png;base64,{image_base64}"/>'
+
+# Use flexbox to place table (left) and figure (right) in one row
+html_content = f"""
+<div style="display: flex; align-items: flex-start;">
+  <div style="margin-right: 20px;">
+    {table_html}
+  </div>
+  <div>
+    {image_html}
+  </div>
+</div>
+"""
+
+display(HTML(html_content))
+---
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import base64
+import io
+from IPython.display import display, HTML
+
+def calculate_fv(interest_rate, t):
+    """
+    Compute the future value factor of $1 at time t, 
+    given an interest_rate. That is, (1 + r)^t.
+    """
+    return (1 + interest_rate) ** t
+
+# Define the time periods and interest rates
+time_periods = np.arange(1, 26)  # t=1 to t=25
+interest_rates = [0.05, 0.07, 0.10, 0.15, 0.20]  # 5%, 7%, 10%, 15%, 20%
+
+# Create a DataFrame for future values
+data = {}
+for rate in interest_rates:
+    data[f"{int(rate*100)}%"] = [calculate_fv(rate, t) for t in time_periods]
+
+df = pd.DataFrame(data, index=time_periods)
+df.index.name = "t"
+
+# Convert the DataFrame to an HTML table (4 decimal places)
+table_html = df.to_html(float_format=lambda x: f"{x:.4f}")
+
+# --- Create the figure and plot ---
+fig, ax = plt.subplots(figsize=(12, 8))  # Single figure
+
+for rate in interest_rates:
+    label = f"{int(rate * 100)}%"
+    ax.plot(time_periods, df[label], marker='o', label=label)
+
+ax.set_title("Future Value of $1 Over Time")
+ax.set_xlabel("Time Period (t)")
+ax.set_ylabel("Future Value ($)")
+ax.legend(title="Interest Rate", loc="upper left")
+ax.grid(True)
+
+# Save the single figure to a buffer (no plt.show())
+buf = io.BytesIO()
+fig.savefig(buf, format='png', bbox_inches='tight')
+buf.seek(0)
+
+# Convert the buffer to a base64 string
+image_base64 = base64.b64encode(buf.getvalue()).decode('utf-8')
+buf.close()
+
+# IMPORTANT: close the figure so it does not re‐display below
+plt.close(fig)
+
+# Create a single <img> tag with an inline base64‐encoded PNG
+image_html = f'<img style="max-width: 100%; width: 800px; height: auto;" src="data:image/png;base64,{image_base64}"/>'
+
+# Use flexbox to place the table (left) and figure (right) in one row
+html_content = f"""
+<div style="display: flex; align-items: flex-start;">
+  <div style="margin-right: 20px;">
+    {table_html}
+  </div>
+  <div>
+    {image_html}
+  </div>
+</div>
+"""
+
+display(HTML(html_content))
+
+---
+### Interest Rates and the Time Value of Money
+* Suppose the risk-free interest rate is 4%.
+    * Having \$500 today is equivalent to having what amount in
+        * one year?
+        * 3 years?
+        * 10 years?
+    * Having \$500 in one year is equivalent to having what amount today?
+        * \$500 in 3 years?
+        * \$500 in 10 years?
+* Suppose the risk-free interest rate is 6%.
+    * What are the 1-year, 5-years, and 7-years discount rates?
+    * What are the 3-years, 5-years, and 10-years interest rate factors?
+---
+### Present Value and the NPV Decision Rule
+#### Net Present Value (NPV)
+* The difference between the present value of benefits and the present value of costs.
+$$ NPV = PV(Benefits) - PV(Costs) $$
+$$ NPV = PV(All \ cash \ flows) $$
+* NPV expresses the value of an investment decision as an amount of cash received today.
+
+#### NPV Decision Rule
+* When making an investment decision, take the alternative with the highest NPV. 
+* Choosing this alternative is equivalent to receiving its NPV in cash today.
+---
+### Present Value and the NPV Decision Rule
+* Your firm needs to purchase a new laser printer , which is priced at $\$1,200$  if paid in cash today. As part of a special promotion, the manufacturer has offered an alternative payment plan: you can pay $\$1,280$ for the printer one year from now instead of paying the full amount upfront. Assuming the risk-free interest rate is 5% per year, determine whether this deferred payment offer is financially advantageous for your firm. Specifically: 
+  * Calculate the present value (PV) of the $\$1,280$  payment due in one year.
+  * Compare the PV of the deferred payment to the cash price of $\$1,200$.
+  * Based on your analysis, should your firm accept the manufacturer's offer or pay the cash price today?
+---
+
+### Present Value and the NPV Decision Rule
+* You recently launched a mobile app development company , but due to personal commitments, you are considering selling the business within the next year. An investor has offered to buy your company for \$150,000  whenever you decide to sell. If the interest rate is 8% , which of the following three alternatives is the best choice? 
+  * Sell the business now. 
+  * Optimize the business operations  and continue running it for one more year before selling (requiring an upfront investment of $\$20,000$ now but generating $\$40,000$ in profit at the end of the year).
+  * Outsource management  of the business for one more year before selling (requiring an upfront investment of $\$40,000$ now but generating $\$80,000$  in profit at the end of the year).
+---
+### Present Value and the NPV Decision Rule
+* You operate a renewable energy company that has just secured a contract to build a solar power plant. The project will take one year to complete and requires an initial investment of $\$8.50$ million today  and $\$4.25$ million in one year . Upon completion, the client will pay your firm $\$19.75$ million . Assume that all cash flows and their timings are certain, and the risk-free interest rate is 6% . 
+  * What is the NPV of this opportunity? 
+  * How can your firm convert this NPV into cash today? 
+---
+
+### Inflation and Interest Rates
+**Nominal interest rate**
+* The rate that is actually agreed and paid.
+* Refers to the percentage change in the investor's money.
+* Doesn't take inflation into account.
+
+**Real interest rate**
+* Refers to the percentage change in in purchasing power.
+* Varies depending on the nominal rate and the rate of inflation.
+$$ (1 + i_n) = (1 + i_r) * (1 + e) \quad \rightarrow \quad (1 + i_r) = \frac{(1 + i_n)}{(1 + e)} $$
+* Nominal interest has three components:
+    * Real interest,
+    * Inflation,
+    * The effect of inflation on the interest earned.
+* The third component usually represents a small amount and can therefore be omitted to approximate real interest. In this situation;
+$ i_n \cong i_r + e $
+---
+### Inflation and Interest Rates
+**What would be the nominal interest demanded by an investor who seeks a 5% real return when the inflation rate is 12%?**
+
+Using the approximation formula:
+$$
+i_n \cong i_r + e
+$$
+$$
+i_n \cong 0.05 + 0.12
+$$
+$$
+i_n \cong 0.17 \, \text{or} \, 17\%
+$$
+
+Using the exact formula:
+$$
+(1 + i_n) = (1 + i_r) \cdot (1 + e)
+$$
+$$
+(1 + i_n) = (1 + 0.05) \cdot (1 + 0.12)
+$$
+$$
+(1 + i_n) = (1.05) \cdot (1.12)
+$$
+$$
+(1 + i_n) = 1.176
+$$
+$$
+i_n = 1.176 - 1 = 0.176 \, \text{or} \, 17.6\%
+$$
+
+---
+### Inflation and Interest Rates
+* You have a particular project with a **real cash flow** structure of (-1,000, 600, 650). 
+* The nominal discount rate is 15% and the inflation is expected to be at 5% in the next two years. 
+* What is the value of the project?
+---
+### Inflation and Interest Rates
+* For NPV Calculations, treat inflation consistently!
+    * Discount real cash flows using real interest rates
+        * Nominal cash flows ⇒ expressed in actual-dollar cash flows
+        * Real cash flows ⇒ expressed in constant purchasing power
+    * Discount nominal cash flows using nominal interest rates
+        * Nominal rate ⇒ actual prevailing interest rate
+        * Real rate ⇒ interest rate adjusted for inflation
+---
+### Arbitrage and the Law of One Price
+* **Arbitrage**: The practice of buying and selling equivalent goods in different markets to take advantage of a price difference.
+
+* Any situation in which it is possible to **make a profit without taking any risk** is an arbitrage opportunity.
+
+* **Law of One Price**: If equivalent investment opportunities trade simultaneously in different competitive markets, then they must trade for the same price in all markets.
+    * Tells us that the prices of equivalent investment opportunities should be the same.
+---
+### Arbitrage and the Law of One Price
+
+Consider a simple security that promises a one-time payment to its owner of \$1000 in one year's time. Suppose there is no risk that the payment will not be made. The security is trading at \$940, and the risk-free rate is 5\%. Is there an arbitrage opportunity?
+
+$$
+\text{PV} (\$1000 \, \text{in 1 year}) = \frac{\$1000}{1.05} = \$952.38 > \$940
+$$
+
+|                  | Today (\$) | In one year (\$) |
+| :--------------- | --------: | --------------: |
+| Buy the bond     | -940.00   | +1,000          |
+| Borrow at risk-free rate | +952.38   | -1,000          |
+| **Net Cash Flow**    | **+12.38**  | **0**            |
+
+**What if the bond is trading at $960?**
+
+|                  | Today (\$) | In one year (\$) |
+| :--------------- | --------: | --------------: |
+| Sell the bond    | +960.00   | -1,000          |
+| Lend at risk-free rate | -952.38   | +1,000          |
+| **Net Cash Flow**    | **+7.62**   | **0**            |
+
+If you can replicate a payoff from one security more cheaply using a set of different securities without bearing any risk, there is an arbitrage opportunity.
+
+---
+### Arbitrage and the Law of One Price
+
+**No-Arbitrage Price**
+
+Consider a security that pays $\$100$ in one year and $\$100$ in two years, without any risk. Suppose the risk-free interest rate is $10\%$. 
+* What is the no-arbitrage price of the security today? 
+$$PV = \frac{100}{(1 + r)^1} + \frac{100}{(1 + r)^2} \quad \rightarrow \quad PV = \$90.91 + \$82.64 = \$173.55$$
+
+* If the security is trading for $175, what arbitrage opportunity is available?
+
+|                           | Today (\$) | In one year (\$) | In two years (\$) |
+| :------------------------: | :--------: | :-------------: | :---------------: |
+| Sell the security         |   +175.00  |                 |                   |
+| Pay to the security holder |            |    -100.00      |      -100.00      |
+| Invest in risk-free rate (1 year) | $-\frac{100}{1+r}$ |     +100.00      |                   |
+| Invest in risk-free rate (2 years) | $-\frac{100}{(1+r)^2}$ |                 |      +100.00      |
+| **Net Cash Flow**           |   **+1.45**   |       **0**        |       **0**         |
+
+---
+
+
+### What is next?
+* Problem Set 1
+* Next Lecture
+    * Time, Money, and Interest Rates
+        * The Time Value of Money
+        * Interest Rates
+    * Reading(s):
+        * CF-B&D: Ch. 4 & 5
+---
